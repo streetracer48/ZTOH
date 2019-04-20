@@ -33,3 +33,26 @@ bookshelf = [
 bookshelf.each do |book|
   puts book
 end
+
+# For hash data structure, we can also use the each iterator by passing two parameters to the block: the key and the value. Here’s an example:
+
+hash = { "some_key" => "some_value" }
+hash.each { |key, value| puts "#{key}: #{value}" }
+ # some_key: some_value
+
+miraz = {
+    "name" => "mirazkarim",
+    "age" => "24",
+}
+miraz.each do |miraz|
+    puts miraz
+end
+
+
+
+country = {
+    "name" => "bangladesh",
+    "age" => "44",
+}
+country.each { |key, value| puts "#{key}: #{value}"}
+
