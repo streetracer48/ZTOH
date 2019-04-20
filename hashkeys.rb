@@ -56,3 +56,19 @@ country = {
 }
 country.each { |key, value| puts "#{key}: #{value}"}
 
+
+
+# We named the two parameters as key and value, but it’s not necessary. We can name them anything:
+
+
+
+hash_tk = {
+  "name" => "Leandro",
+  "nickname" => "Tk",
+  "nationality" => "Brazilian",
+  "age" => 24
+}
+
+hash_tk.each do |attribute, value|
+  puts "#{attribute}: #{value}"
+end
