@@ -28,3 +28,11 @@ elsif 2>1
 else
     puts "1 is equal to 2"
 end    
+
+# One way I really like to write Ruby is to use an if statement after the code to be executed:
+
+def hey_ho?
+    true
+  end
+  
+  puts "let’s go" if hey_ho?
